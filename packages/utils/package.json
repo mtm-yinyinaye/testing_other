@@ -1,0 +1,11 @@
+{
+  "name": "@ad/utils",
+  "version": "0.0.4",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "typings": "dist/index.d.ts",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ]
+}
