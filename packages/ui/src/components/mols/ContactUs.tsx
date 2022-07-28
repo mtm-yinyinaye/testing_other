@@ -20,7 +20,7 @@ const ContactUs = (props: Props) => {
           <p>{props.title || 'お問い合わせ'}</p>
         </div>
         <div css={body}>
-          <p>{`ご不明点がございましたら、\nこちらまでお気軽にご連絡ください。`}</p>
+          <p>{`ご不明点がございましたら、\nこちらまでお気軽にご連絡ください。!!!!!!!!!!!!!!!!!!!!!!!!`}</p>
         </div>
         <div css={footer}>
           <Tel
@@ -47,7 +47,8 @@ const contactUs = css({
 })
 
 const contactUsInner = css({
-  width: '960px',
+  maxWidth: '960px',
+  width: '100% !important',
   margin: '0 auto',
   textAlign: 'center',
   border: '2px solid #e5e5e5',
@@ -56,10 +57,11 @@ const contactUsInner = css({
   background: '#FFFFFF',
 
   [mq[xpc]]: {
-    width: '50%',
+    padding: '80px 10px 40px !important',
   },
 
   [mq[sp]]: {
+    padding: '30px 20px 10px !important',
     width: '95%',
   },
 })
