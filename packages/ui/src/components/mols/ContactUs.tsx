@@ -1,6 +1,6 @@
 import { css } from '@emotion/react'
 import Tel from '@/components/atoms/Tel'
-import { mq, sp } from '@/styles'
+import { mq, xpc, sp } from '@/styles'
 
 type Props = {
   deskName: string
@@ -54,6 +54,10 @@ const contactUsInner = css({
   borderRadius: '10px',
   padding: '20px 30px',
   background: '#FFFFFF',
+
+  [mq[xpc]]: {
+    width: '50%',
+  },
 
   [mq[sp]]: {
     width: '95%',
