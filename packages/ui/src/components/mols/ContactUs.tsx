@@ -20,7 +20,7 @@ const ContactUs = (props: Props) => {
           <p>{props.title || 'お問い合わせ'}</p>
         </div>
         <div css={body}>
-          <p>{`ご不明点がございましたら、\nこちらまでお気軽にご連絡ください。`}</p>
+          <p>{`ご不明点がございましたら、\nこちらまでお気軽にご連絡ください。ご不明点がございましたら、\nこちらまでお気軽にご連絡ください。`}</p>
         </div>
         <div css={footer}>
           <Tel
